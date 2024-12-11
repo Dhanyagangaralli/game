@@ -12,7 +12,24 @@ To install the Pygame library, run the following command:
 ```bash
 pip install pygame
 
-How to Run the Game:
+## How to Run the Game:
 Save the provided code into a Python file, for example snake_game.py.
 Install the Pygame library using the command above if you haven't done so already.
 Run the game by executing:
+
+python snake_game.py
+
+Features:
+Dynamic Snake Movement: The snake grows longer as it eats food.
+Game Over Screen: When the game ends, the score is displayed with an option to either replay the game or quit.
+Responsive Controls: The snake can be controlled using the arrow keys:
+Up: Move up
+Down: Move down
+Left: Move left
+Right: Move right
+Controls:
+Arrow Keys: Control the direction of the snake.
+C: Restart the game after losing.
+Q: Quit the game after losing.
+
+
